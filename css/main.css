@@ -1,0 +1,29 @@
+.photo {
+  border-radius: 50%;
+  width: 10em;
+}
+
+.header_photo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name_pronouns {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin-right: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.pronouns {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  margin-top: 9px;
+
+}
+
