@@ -1,4 +1,14 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+p{
+  margin: 0;
+}
+
 .photo {
+  margin-top: 10px;
   border-radius: 50%;
   width: 10em;
 }
@@ -12,6 +22,8 @@
 .name_pronouns {
   display: flex;
   align-items: center;
+  height: 50px;
+  margin-top: 10px;
 }
 
 .name {
@@ -21,9 +33,40 @@
 }
 
 .pronouns {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
   margin-top: 9px;
+}
 
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.icons {
+  margin-right: 5px;
+  height: 24px;
+}
+
+.icons-contacts {
+  height: 30px;
+}
+
+.middle-dot {
+  margin: 0px 5px 0px 5px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
