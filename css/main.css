@@ -53,8 +53,9 @@ p{
   margin: 0px;;
 }
 
-.profissao {
+.job {
   display: flex;
+  align-items: center;
 }
 
 .icons-contacts {
@@ -122,5 +123,19 @@ p{
   .hiden-middle-dot
    {
     display: none;
+   }
+}
+
+@media (max-width: 420px)
+{
+   .info{
+    font-size: 15px;
+   }
+}
+
+@media (max-width: 320px)
+{
+   .info{
+    font-size: 14px;
    }
 }
