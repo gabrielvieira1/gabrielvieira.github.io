@@ -100,22 +100,23 @@ p{
   width: 450px;
   max-width: 500px;
   border-radius: 2.5em;
-  background: #b1b1b1;
+  background: #EEEEEE;
   padding: 20px;
 }
 
 .title {
-  margin-top: 20px;
+  margin: 10px 0px 20px 0px;
   color: black;
   font-weight: bolder;  
   height: auto;
   width: auto;
+  text-decoration: none;
 }
 
 .description {
-  margin-top: 20px;
   color: black;
   font-weight: normal;
+  margin: 0px 0px 20px 0px;
 }
 
 @media (max-width: 500px)
@@ -131,6 +132,9 @@ p{
    .info{
     font-size: 15px;
    }
+   .card{
+     height: 100%;
+   }
 }
 
 @media (max-width: 320px)
@@ -138,4 +142,20 @@ p{
    .info{
     font-size: 14px;
    }
+}
+
+.repo-language-color {
+  border: 1px solid var(--color-repo-language-color-border);
+  border-radius: 50%;
+  display: inline-block;
+  height: 12px;
+  position: relative;
+  top: 1px;
+  width: 12px;
+}
+
+.bagdes {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
 }
