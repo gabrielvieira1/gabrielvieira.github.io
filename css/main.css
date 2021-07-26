@@ -7,6 +7,12 @@ p{
   margin: 0;
 }
 
+footer {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
 .photo {
   margin-top: 10px;
   border-radius: 50%;
